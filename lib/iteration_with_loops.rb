@@ -1,9 +1,9 @@
 def join_nested_strings(src)
   string_output = []
-  src.each do |strings|
-    strings.each do |string|
-      if string.is_a?(String)
-        string_output << string
+  src.each do |row|
+    row.each do |element|
+      if element.class == String
+        string_output << element
       end
     end
   end
