@@ -2,7 +2,7 @@ def join_nested_strings(src)
   string_output = []
   src.each do |strings|
     strings.each do |string|
-      if item.is_a?(String)
+      if string.is_a?(String)
         string_output << string
       end
     end
