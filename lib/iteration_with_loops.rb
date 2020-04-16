@@ -1,5 +1,6 @@
 def join_nested_strings(src)
-  string_output = []
+string_output = []
+
   src.each do |row|
     row.each do |element|
       if element.class == String
@@ -7,7 +8,8 @@ def join_nested_strings(src)
       end
     end
   end
-  string_output.join(" ")
+end
+string_output.join(" ")
 
 
 # src will be an Array of Arrays of Strings and Integers
