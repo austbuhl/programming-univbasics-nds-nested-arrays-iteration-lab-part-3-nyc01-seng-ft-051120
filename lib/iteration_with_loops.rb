@@ -8,8 +8,9 @@ string_output = []
       end
     end
   end
+  string_output.join(" ")
 end
-string_output.join(" ")
+
 
 
 # src will be an Array of Arrays of Strings and Integers
